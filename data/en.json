@@ -1,0 +1,227 @@
+{
+  "meta": {
+    "title": "Beehive Entreprises | Corporate Services",
+    "description": "Beehive Entreprises is a corporate partner delivering reliable services and project execution.",
+    "ogTitle": "Beehive Entreprises",
+    "ogImage": "/wp-content/uploads/2021/07/baennr.jpg"
+  },
+  "a11y": {
+    "skip": "Skip to content"
+  },
+  "brand": {
+    "tagline": "Beehive Entreprises",
+    "logoSrc": "./img/LogoBeehive.png",
+    "faviconSrc": "./img/LogoBeehive.png"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact",
+    "founder": "Founders",
+    "menu": "Menu",
+    "language": "Language"
+  },
+  "hero": {
+    "kicker": "Digital, software & construction",
+    "title": "Beehive Entreprises",
+    "subtitle": "A multi-expertise group delivering digital solutions, custom software and construction projects with high standards.",
+    "ctaPrimary": "Get a quote",
+    "ctaSecondary": "Talk to an expert",
+    "slider": {
+      "prev": "Prev",
+      "next": "Next"
+    },
+    "stats": [
+      { "label": "Innovation", "value": "Modern approach" },
+      { "label": "Reliability", "value": "On-time delivery" },
+      { "label": "Performance", "value": "Measurable impact" }
+    ]
+  },
+  "about": {
+    "title": "About Beehive",
+    "lead": "A pragmatic team focused on delivering measurable value.",
+    "body": "We support companies from planning to execution with a strong emphasis on quality, transparency, and long-term partnership.",
+    "list": [
+      "BeeHive Digital: Digital services company (ESN), based at 99 Av. Albert 1er, 92500 Rueil-Malmaison, France",
+      "BeeHive Construction: Building and construction specialist, based in Paris, France.",
+      "Digital Power Consulting: Software provider with operations in Tunisia and France.",
+      "BeeHive Logiciel: Technology consulting firm supporting companies in modernizing, securing, and optimizing their information systems."
+    ],
+    "videoSrc": "./img/Video.mp4",
+    "highlights": [
+      { "kicker": "Approach", "text": "Clear scope, simple process, consistent delivery." },
+      { "kicker": "Quality", "text": "Best practices, clean execution, attention to detail." },
+      { "kicker": "Communication", "text": "Fast feedback loops and proactive reporting." },
+      { "kicker": "Reliability", "text": "Deadlines respected and commitments honored." }
+    ]
+  },
+  "clients": {
+    "title": "Clients",
+    "logos": [
+      { "src": "./img/Clients/Construction.png", "alt": "BeeHive Construction" },
+      { "src": "./img/Clients/Digital.png", "alt": "BeeHive Digital" },
+      { "src": "./img/Clients/Logiciel.png", "alt": "BeeHive Logiciel" },
+      { "src": "./img/Clients/DPC.png", "alt": "Digital Power Consulting" }
+    ]
+  },
+  "partners": {
+    "title": "Partners",
+    "subtitle": "Trusted collaborators and group partners.",
+    "logos": [
+      { "src": "./img/Clients/Construction.png", "alt": "BeeHive Construction" },
+      { "src": "./img/Clients/Digital.png", "alt": "BeeHive Digital" },
+      { "src": "./img/Clients/Logiciel.png", "alt": "BeeHive Logiciel" },
+      { "src": "./img/Clients/DPC.png", "alt": "Digital Power Consulting" },
+      { "src": "./img/Clients/ALHADHBA.png", "alt": "ALHADHBA" }
+    ]
+  },
+  "companies": {
+    "title": "Companies",
+    "subtitle": "Group entities and key indicators.",
+    "items": [
+      {
+        "name": "Beehive Construction",
+        "kicker": "Construction",
+        "logo": "./img/Clients/Construction.png",
+        "revenueLabel": "Revenue",
+        "revenue": "€1M",
+        "employeesLabel": "Employees",
+        "employees": "20 people",
+        "clientsLabel": "Clients",
+        "clients": "Eiffage, Colas, Vinci-GTM, Bouygues Construction…",
+        "cta": "Visit website",
+        "url": "https://beehiveentreprises.com/"
+      },
+      {
+        "name": "Beehive Digital",
+        "kicker": "Consulting",
+        "logo": "./img/Clients/Digital.png",
+        "revenueLabel": "Revenue",
+        "revenue": "€2M",
+        "employeesLabel": "Employees",
+        "employees": "50 people",
+        "clientsLabel": "Clients",
+        "clients": "Thales, Crédit Agricole, LCL, BNP, INTM, …",
+        "cta": "Visit website",
+        "url": "https://beehiveentreprises.com/"
+      },
+      {
+        "name": "Digital Power Consulting",
+        "kicker": "IT Technology",
+        "logo": "./img/Clients/DPC.png",
+        "revenueLabel": "Revenue",
+        "revenue": "€200k",
+        "employeesLabel": "Employees",
+        "employees": "70 people",
+        "clientsLabel": "Clients",
+        "clients": "Wevioo, Wifak Bank,…",
+        "cta": "Visit website",
+        "url": "https://beehiveentreprises.com/"
+      },
+      {
+        "name": "Beehive Logiciel",
+        "kicker": "Software",
+        "logo": "./img/Clients/Logiciel.png",
+        "revenueLabel": "Revenue",
+        "revenue": "€10k",
+        "employeesLabel": "Employees",
+        "employees": "10 people",
+        "clientsLabel": "Clients",
+        "clients": "Beehive Entreprises, Wifak Bank, ..",
+        "cta": "Visit website",
+        "url": "https://beehiveentreprises.com/"
+      }
+    ]
+  },
+  "team": {
+    "title": "Founders",
+    "subtitle": "Experienced leadership to deliver with high standards.",
+    "members": [
+      { "name": "Nada Aziz", "role": "Program Director", "image": "./img/Team/Nada%20Aziz.png" },
+      { "name": "Lassaâd Mathlouthi", "role": "Chief Executive Officer", "image": "./img/Team/Lassa%C3%A2d%20Mathlouthi.webp" },
+      { "name": "Atef Sghaier", "role": "Executive Director", "image": "./img/Team/Atef%20Sghaier.jpeg" },
+      { "name": "Rym Kabou", "role": "Human Resources Director", "image": "./img/Team/Rym%20Kabou.jpg" },
+      { "name": "Syrine Neji", "role": "Chief Financial Officer", "image": "./img/Team/syrine.jpg" }
+    ]
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "Our areas of expertise to support your projects.",
+    "items": [
+      {
+        "title": "Construction",
+        "description": "BeeHive Construction delivers innovative and sustainable construction projects."
+      },
+      {
+        "title": "IT Technology",
+        "description": "DPC (Digital Power Consulting) provides IT solutions including web development, design, systems, and DevOps."
+      },
+      {
+        "title": "Consulting",
+        "description": "BeeHive Digital offers IT consulting to support your digital transformation."
+      },
+      {
+        "title": "Software",
+        "description": "BeeHive Logiciel helps companies modernize, secure, and optimize their information systems."
+      }
+    ]
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "subtitle": "A selection of projects and deliverables.",
+    "items": [
+      { "title": "Project 01", "category": "Delivery", "image": "/wp-content/uploads/2021/06/portfolio-1.jpg" },
+      { "title": "Project 02", "category": "Execution", "image": "/wp-content/uploads/2021/06/portfolio-2.jpg" },
+      { "title": "Project 03", "category": "Operations", "image": "/wp-content/uploads/2021/06/portfolio-3.jpg" },
+      { "title": "Project 04", "category": "Services", "image": "/wp-content/uploads/2021/06/portfolio-4.jpg" },
+      { "title": "Project 05", "category": "Corporate", "image": "/wp-content/uploads/2021/06/portfolio-5.jpg" },
+      { "title": "Project 06", "category": "Maintenance", "image": "/wp-content/uploads/2021/06/portfolio-6.jpg" }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "We’d love to hear from you. Send us a message and we’ll get back to you as soon as possible.",
+    "mapEmbedUrl": "https://www.google.com/maps?q=99%20Av.%20Albert%201er,%2092500%20Rueil-Malmaison,%20France&output=embed",
+    "details": {
+      "emailLabel": "Email",
+      "emailValue": "contact@beehive-entreprises.com",
+      "emailHref": "mailto:contact@beehive-entreprises.com",
+      "phoneLabel": "Phone",
+      "phoneValue": "+33 6 99 57 83 15",
+      "phoneHref": "tel:+33699578315",
+      "addressLabel": "Address",
+      "addressValue": "99 Av. Albert 1er, 92500 Rueil-Malmaison, France"
+    },
+    "form": {
+      "nameLabel": "Full name",
+      "namePlaceholder": "Your name",
+      "emailLabel": "Email",
+      "emailPlaceholder": "name@company.com",
+      "phoneLabel": "Phone",
+      "phonePlaceholder": "Optional",
+      "subjectLabel": "Subject",
+      "subjectPlaceholder": "Project inquiry",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Tell us about your project",
+      "submit": "Send message",
+      "success": "Thanks! Your message is ready to be sent."
+    },
+    "validation": {
+      "nameRequired": "Please enter your name.",
+      "emailInvalid": "Please enter a valid email address.",
+      "subjectRequired": "Please enter a subject.",
+      "messageMin": "Please enter a message (at least 10 characters)."
+    }
+  },
+  "footer": {
+    "tagline": "Built for modern business.",
+    "rights": "© Beehive Entreprises. All rights reserved.",
+    "note": "Static website built with modern frontend best practices.",
+    "social": {
+      "linkedinUrl": "https://www.linkedin.com/",
+      "facebookUrl": "https://www.facebook.com/",
+      "instagramUrl": "https://www.instagram.com/"
+    }
+  }
+}

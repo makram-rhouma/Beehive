@@ -1,0 +1,227 @@
+{
+  "meta": {
+    "title": "Beehive Entreprises | خدمات الشركات",
+    "description": "Beehive Entreprises شريك مؤسسي يقدم خدمات موثوقة وتنفيذ مشاريع باحتراف.",
+    "ogTitle": "Beehive Entreprises",
+    "ogImage": "/wp-content/uploads/2021/07/baennr.jpg"
+  },
+  "a11y": {
+    "skip": "الانتقال إلى المحتوى"
+  },
+  "brand": {
+    "tagline": "Beehive Entreprises",
+    "logoSrc": "./img/LogoBeehive.png",
+    "faviconSrc": "./img/LogoBeehive.png"
+  },
+  "nav": {
+    "home": "الرئيسية",
+    "about": "من نحن",
+    "services": "الخدمات",
+    "contact": "اتصل بنا",
+    "founder": "المؤسسون",
+    "menu": "القائمة",
+    "language": "اللغة"
+  },
+  "hero": {
+    "kicker": "حلول رقمية وبرمجيات وبناء",
+    "title": "Beehive Entreprises",
+    "subtitle": "مجموعة متعددة الخبرات تقدم حلولاً رقمية وبرمجيات مخصصة ومشاريع بناء بمعايير عالية.",
+    "ctaPrimary": "اطلب عرض سعر",
+    "ctaSecondary": "تحدث إلى خبير",
+    "slider": {
+      "prev": "السابق",
+      "next": "التالي"
+    },
+    "stats": [
+      { "label": "الابتكار", "value": "نهج حديث" },
+      { "label": "الموثوقية", "value": "التسليم في الموعد" },
+      { "label": "الأداء", "value": "أثر ملموس" }
+    ]
+  },
+  "about": {
+    "title": "عن Beehive",
+    "lead": "فريق عملي يركز على نتائج قابلة للقياس.",
+    "body": "من التخطيط إلى التنفيذ، نركز على الجودة والشفافية وبناء شراكات طويلة الأمد.",
+    "list": [
+      "BeeHive Digital: شركة خدمات رقمية (ESN)، مقرها 99 Av. Albert 1er, 92500 Rueil-Malmaison, France",
+      "BeeHive Construction: متخصصة في البناء والتشييد، مقرها باريس، فرنسا.",
+      "Digital Power Consulting: مزود حلول برمجية بحضور في تونس وفرنسا.",
+      "BeeHive Logiciel: شركة استشارات تقنية ترافق الشركات في تحديث وتأمين وتحسين أنظمة المعلومات."
+    ],
+    "videoSrc": "./img/Video.mp4",
+    "highlights": [
+      { "kicker": "المنهج", "text": "نطاق واضح، عملية بسيطة، وتسليم ثابت." },
+      { "kicker": "الجودة", "text": "أفضل الممارسات مع اهتمام كبير بالتفاصيل." },
+      { "kicker": "التواصل", "text": "متابعة سريعة وتقارير استباقية." },
+      { "kicker": "الموثوقية", "text": "احترام المواعيد والالتزامات." }
+    ]
+  },
+  "clients": {
+    "title": "العملاء",
+    "logos": [
+      { "src": "./img/Clients/Construction.png", "alt": "BeeHive Construction" },
+      { "src": "./img/Clients/Digital.png", "alt": "BeeHive Digital" },
+      { "src": "./img/Clients/Logiciel.png", "alt": "BeeHive Logiciel" },
+      { "src": "./img/Clients/DPC.png", "alt": "Digital Power Consulting" }
+    ]
+  },
+  "partners": {
+    "title": "الشركاء",
+    "subtitle": "شركاء موثوقون يتعاونون مع المجموعة.",
+    "logos": [
+      { "src": "./img/Clients/Construction.png", "alt": "BeeHive Construction" },
+      { "src": "./img/Clients/Digital.png", "alt": "BeeHive Digital" },
+      { "src": "./img/Clients/Logiciel.png", "alt": "BeeHive Logiciel" },
+      { "src": "./img/Clients/DPC.png", "alt": "Digital Power Consulting" },
+      { "src": "./img/Clients/ALHADHBA.png", "alt": "ALHADHBA" }
+    ]
+  },
+  "companies": {
+    "title": "الشركات",
+    "subtitle": "كيانات المجموعة ومؤشراتها.",
+    "items": [
+      {
+        "name": "Beehive Construction",
+        "kicker": "البناء",
+        "logo": "./img/Clients/Construction.png",
+        "revenueLabel": "رقم المعاملات",
+        "revenue": "1M يورو",
+        "employeesLabel": "الموظفون",
+        "employees": "20 شخصًا",
+        "clientsLabel": "العملاء",
+        "clients": "Eiffage, Colas, Vinci-GTM, Bouygues Construction…",
+        "cta": "زيارة الموقع",
+        "url": "https://beehiveentreprises.com/"
+      },
+      {
+        "name": "Beehive Digital",
+        "kicker": "استشارات",
+        "logo": "./img/Clients/Digital.png",
+        "revenueLabel": "رقم المعاملات",
+        "revenue": "2M يورو",
+        "employeesLabel": "الموظفون",
+        "employees": "50 شخصًا",
+        "clientsLabel": "العملاء",
+        "clients": "Thales, Crédit Agricole, LCL, BNP, INTM, …",
+        "cta": "زيارة الموقع",
+        "url": "https://beehiveentreprises.com/"
+      },
+      {
+        "name": "Digital Power Consulting",
+        "kicker": "تقنية المعلومات",
+        "logo": "./img/Clients/DPC.png",
+        "revenueLabel": "رقم المعاملات",
+        "revenue": "200k يورو",
+        "employeesLabel": "الموظفون",
+        "employees": "70 شخصًا",
+        "clientsLabel": "العملاء",
+        "clients": "Wevioo, Wifak Bank,…",
+        "cta": "زيارة الموقع",
+        "url": "https://beehiveentreprises.com/"
+      },
+      {
+        "name": "Beehive Logiciel",
+        "kicker": "برمجيات",
+        "logo": "./img/Clients/Logiciel.png",
+        "revenueLabel": "رقم المعاملات",
+        "revenue": "10k يورو",
+        "employeesLabel": "الموظفون",
+        "employees": "10 أشخاص",
+        "clientsLabel": "العملاء",
+        "clients": "Beehive Entreprises, Wifak Bank, ..",
+        "cta": "زيارة الموقع",
+        "url": "https://beehiveentreprises.com/"
+      }
+    ]
+  },
+  "team": {
+    "title": "المؤسسون",
+    "subtitle": "قيادة بخبرة عالية لتنفيذ المشاريع بمعايير صارمة.",
+    "members": [
+      { "name": "Nada Aziz", "role": "مديرة البرامج", "image": "./img/Team/Nada%20Aziz.png" },
+      { "name": "Lassaâd Mathlouthi", "role": "المدير العام", "image": "./img/Team/Lassa%C3%A2d%20Mathlouthi.webp" },
+      { "name": "Atef Sghaier", "role": "المدير التنفيذي", "image": "./img/Team/Atef%20Sghaier.jpeg" },
+      { "name": "Rym Kabou", "role": "مديرة الموارد البشرية", "image": "./img/Team/Rym%20Kabou.jpg" },
+      { "name": "Syrine Neji", "role": "المديرة المالية", "image": "./img/Team/syrine.jpg" }
+    ]
+  },
+  "services": {
+    "title": "الخدمات",
+    "subtitle": "مجالات خبرتنا لدعم مشاريعكم.",
+    "items": [
+      {
+        "title": "البناء والتشييد",
+        "description": "BeeHive Construction متخصصة في تنفيذ مشاريع بناء مبتكرة ومستدامة."
+      },
+      {
+        "title": "تقنية المعلومات",
+        "description": "DPC (Digital Power Consulting) تقدم حلول IT بما في ذلك تطوير الويب والتصميم والأنظمة و DevOps."
+      },
+      {
+        "title": "الاستشارات",
+        "description": "BeeHive Digital تقدم استشارات IT لمرافقة الشركات في تحولها الرقمي."
+      },
+      {
+        "title": "البرمجيات",
+        "description": "BeeHive Logiciel ترافق الشركات في تحديث وتأمين وتحسين أنظمة المعلومات."
+      }
+    ]
+  },
+  "portfolio": {
+    "title": "الأعمال",
+    "subtitle": "نماذج من المشاريع والإنجازات.",
+    "items": [
+      { "title": "مشروع 01", "category": "تسليم", "image": "/wp-content/uploads/2021/06/portfolio-1.jpg" },
+      { "title": "مشروع 02", "category": "تنفيذ", "image": "/wp-content/uploads/2021/06/portfolio-2.jpg" },
+      { "title": "مشروع 03", "category": "تشغيل", "image": "/wp-content/uploads/2021/06/portfolio-3.jpg" },
+      { "title": "مشروع 04", "category": "خدمات", "image": "/wp-content/uploads/2021/06/portfolio-4.jpg" },
+      { "title": "مشروع 05", "category": "شركات", "image": "/wp-content/uploads/2021/06/portfolio-5.jpg" },
+      { "title": "مشروع 06", "category": "صيانة", "image": "/wp-content/uploads/2021/06/portfolio-6.jpg" }
+    ]
+  },
+  "contact": {
+    "title": "اتصل بنا",
+    "subtitle": "يسعدنا سماع رسالتك. أرسل لنا تفاصيلك وسنرد عليك في أقرب وقت ممكن.",
+    "mapEmbedUrl": "https://www.google.com/maps?q=99%20Av.%20Albert%201er,%2092500%20Rueil-Malmaison,%20France&output=embed",
+    "details": {
+      "emailLabel": "البريد الإلكتروني",
+      "emailValue": "contact@beehive-entreprises.com",
+      "emailHref": "mailto:contact@beehive-entreprises.com",
+      "phoneLabel": "الهاتف",
+      "phoneValue": "+33 6 99 57 83 15",
+      "phoneHref": "tel:+33699578315",
+      "addressLabel": "العنوان",
+      "addressValue": "99 Av. Albert 1er, 92500 Rueil-Malmaison, France"
+    },
+    "form": {
+      "nameLabel": "الاسم الكامل",
+      "namePlaceholder": "اسمك",
+      "emailLabel": "البريد الإلكتروني",
+      "emailPlaceholder": "name@company.com",
+      "phoneLabel": "الهاتف",
+      "phonePlaceholder": "اختياري",
+      "subjectLabel": "الموضوع",
+      "subjectPlaceholder": "استفسار حول مشروع",
+      "messageLabel": "الرسالة",
+      "messagePlaceholder": "اكتب تفاصيل مشروعك",
+      "submit": "إرسال",
+      "success": "شكرًا! رسالتك جاهزة للإرسال."
+    },
+    "validation": {
+      "nameRequired": "يرجى إدخال الاسم.",
+      "emailInvalid": "يرجى إدخال بريد إلكتروني صحيح.",
+      "subjectRequired": "يرجى إدخال الموضوع.",
+      "messageMin": "يرجى إدخال رسالة (10 أحرف على الأقل)."
+    }
+  },
+  "footer": {
+    "tagline": "مصمم للأعمال الحديثة.",
+    "rights": "© Beehive Entreprises. جميع الحقوق محفوظة.",
+    "note": "موقع ثابت مبني بأفضل ممارسات الواجهة الأمامية الحديثة.",
+    "social": {
+      "linkedinUrl": "https://www.linkedin.com/",
+      "facebookUrl": "https://www.facebook.com/",
+      "instagramUrl": "https://www.instagram.com/"
+    }
+  }
+}

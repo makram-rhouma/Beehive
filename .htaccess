@@ -1,0 +1,17 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Ensure base folder works when deployed at /website
+  RewriteBase /website/
+
+  # Serve existing files and folders as-is
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # Clean language routes: /website/en, /website/fr, /website/ar
+  RewriteRule ^(en|fr|ar)/?$ index.html [L]
+
+  # Fallback to index.html (SPA behavior)
+  RewriteRule ^ index.html [L]
+</IfModule>
