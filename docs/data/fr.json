@@ -1,0 +1,227 @@
+{
+  "meta": {
+    "title": "Beehive Entreprises | Services d'entreprise",
+    "description": "Beehive Entreprises est un partenaire d'entreprise qui livre des services fiables et une exécution de projets.",
+    "ogTitle": "Beehive Entreprises",
+    "ogImage": "/wp-content/uploads/2021/07/baennr.jpg"
+  },
+  "a11y": {
+    "skip": "Aller au contenu"
+  },
+  "brand": {
+    "tagline": "Beehive Entreprises",
+    "logoSrc": "./img/LogoBeehive.png",
+    "faviconSrc": "./img/LogoBeehive.png"
+  },
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "services": "Services",
+    "founder": "Fondateurs",
+    "contact": "contact",
+    "menu": "Menu",
+    "language": "Langue"
+  },
+  "hero": {
+    "kicker": "Solutions digitales, logiciel & construction",
+    "title": "Beehive Entreprises",
+    "subtitle": "Un groupe multi-expertises qui conçoit des solutions digitales, développe des logiciels sur-mesure et pilote des projets de construction avec exigence.",
+    "ctaPrimary": "Demander un devis",
+    "ctaSecondary": "Parler à un expert",
+    "slider": {
+      "prev": "Précédent",
+      "next": "Suivant"
+    },
+    "stats": [
+      { "label": "Innovation", "value": "Approche moderne" },
+      { "label": "Fiabilité", "value": "Délais maîtrisés" },
+      { "label": "Performance", "value": "Impact mesurable" }
+    ]
+  },
+  "about": {
+    "title": "À propos de Beehive",
+    "lead": "Nous sommes un groupe, plusieurs expertises et une vision d’excellence.",
+    "body": "Beehive Entreprises regroupe plusieurs entités spécialisées afin d’offrir une couverture complète des besoins de ses clients.",
+    "list": [
+      "BeeHive Digital : Entreprise de service numérique (ESN), basé à 99 Av. Albert 1er, 92500 Rueil-Malmaison, France",
+      "BeeHive Construction : Spécialisé dans le bâtiment, basé à Paris, France.",
+      "Digital Power Consulting : Fournisseur de logiciels avec une présence en Tunisie et en France.",
+      "BeeHive Logiciel : Société de conseil technologique qui accompagne les entreprises dans la modernisation, la sécurisation et l’optimisation de leurs systèmes d’information."
+    ],
+    "videoSrc": "./img/Video.mp4",
+    "highlights": [
+      { "kicker": "Approche", "text": "Périmètre clair, processus simple, livraison constante." },
+      { "kicker": "Qualité", "text": "Bonnes pratiques, exécution propre, sens du détail." },
+      { "kicker": "Communication", "text": "Boucles de feedback rapides et reporting proactif." },
+      { "kicker": "Fiabilité", "text": "Délais respectés et engagements tenus." }
+    ]
+  },
+  "clients": {
+    "title": "Nos clients",
+    "logos": [
+      { "src": "./img/Clients/Construction.png", "alt": "BeeHive Construction" },
+      { "src": "./img/Clients/Digital.png", "alt": "BeeHive Digital" },
+      { "src": "./img/Clients/Logiciel.png", "alt": "BeeHive Logiciel" },
+      { "src": "./img/Clients/DPC.png", "alt": "Digital Power Consulting" }
+    ]
+  },
+  "partners": {
+    "title": "Partenaires",
+    "subtitle": "Ils nous font confiance et collaborent avec le groupe.",
+    "logos": [
+      { "src": "./img/Clients/Construction.png", "alt": "BeeHive Construction" },
+      { "src": "./img/Clients/Digital.png", "alt": "BeeHive Digital" },
+      { "src": "./img/Clients/Logiciel.png", "alt": "BeeHive Logiciel" },
+      { "src": "./img/Clients/DPC.png", "alt": "Digital Power Consulting" },
+      { "src": "./img/Clients/ALHADHBA.png", "alt": "ALHADHBA" }
+    ]
+  },
+  "companies": {
+    "title": "Nos Entreprises",
+    "subtitle": "Découvrez les entités du groupe Beehive et leurs indicateurs clés.",
+    "items": [
+      {
+        "name": "Beehive Construction",
+        "kicker": "Construction",
+        "logo": "./img/Clients/Construction.png",
+        "revenueLabel": "Chiffre d’affaire",
+        "revenue": "1M euros",
+        "employeesLabel": "Employées",
+        "employees": "20 personnes",
+        "clientsLabel": "Clients",
+        "clients": "Eiffage, Colas, Vinci-GTM, Bouygues Construction…",
+        "cta": "Accéder au siteweb",
+        "url": "https://beehiveentreprises.com/"
+      },
+      {
+        "name": "Beehive Digital",
+        "kicker": "Consulting",
+        "logo": "./img/Clients/Digital.png",
+        "revenueLabel": "Chiffre d’affaire",
+        "revenue": "2M euros",
+        "employeesLabel": "Employées",
+        "employees": "50 personnes",
+        "clientsLabel": "Clients",
+        "clients": "Thales, Crédit Agricole, LCL, BNP, INTM, …",
+        "cta": "Accéder au siteweb",
+        "url": "https://beehiveentreprises.com/"
+      },
+      {
+        "name": "Digital Power Consulting",
+        "kicker": "IT Technologie",
+        "logo": "./img/Clients/DPC.png",
+        "revenueLabel": "Chiffre d’affaire",
+        "revenue": "200k euros",
+        "employeesLabel": "Employées",
+        "employees": "70 personnes",
+        "clientsLabel": "Clients",
+        "clients": "Wevioo, Wifak banque,…",
+        "cta": "Accéder au siteweb",
+        "url": "https://beehiveentreprises.com/"
+      },
+      {
+        "name": "Beehive Logiciel",
+        "kicker": "Logiciel",
+        "logo": "./img/Clients/Logiciel.png",
+        "revenueLabel": "Chiffre d’affaire",
+        "revenue": "10k euros",
+        "employeesLabel": "Employées",
+        "employees": "10 personnes",
+        "clientsLabel": "Clients",
+        "clients": "Beehive Entreprises, Wifak banque, ..",
+        "cta": "Accéder au siteweb",
+        "url": "https://beehiveentreprises.com/"
+      }
+    ]
+  },
+  "team": {
+    "title": "Fondateurs",
+    "subtitle": "Une gouvernance expérimentée pour piloter vos projets avec exigence.",
+    "members": [
+      { "name": "Nada Aziz", "role": "Directrice De Programme", "image": "./img/Team/Nada%20Aziz.png" },
+      { "name": "Lassaâd Mathlouthi", "role": "Directeur Général", "image": "./img/Team/Lassa%C3%A2d%20Mathlouthi.webp" },
+      { "name": "Atef Sghaier", "role": "Directeur Exécutif", "image": "./img/Team/Atef%20Sghaier.jpeg" },
+      { "name": "Rym Kabou", "role": "Directrice Ressources Humaines", "image": "./img/Team/Rym%20Kabou.jpg" },
+      { "name": "Syrine Neji", "role": "Directrice Financière", "image": "./img/Team/syrine.jpg" }
+    ]
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "Nos pôles d’expertise pour accompagner vos projets.",
+    "items": [
+      {
+        "title": "Construction",
+        "description": "BeeHive Construction est spécialisé dans la réalisation de projets de construction innovants et durables."
+      },
+      {
+        "title": "IT technologie",
+        "description": "DPC (Digital Power Consulting) est spécialisé dans les solutions IT, offrant des services de développement web, de design, système et DevOps."
+      },
+      {
+        "title": "Consulting",
+        "description": "BeeHive Digital offre des services de consulting en IT pour accompagner les entreprises dans leur transformation numérique."
+      },
+      {
+        "title": "Logiciel",
+        "description": "BeeHive Logiciel est une société de conseil technologique qui accompagne les entreprises dans la modernisation, la sécurisation et l’optimisation de leurs systèmes d’information."
+      }
+    ]
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "subtitle": "Une sélection de projets et réalisations.",
+    "items": [
+      { "title": "Projet 01", "category": "Livraison", "image": "/wp-content/uploads/2021/06/portfolio-1.jpg" },
+      { "title": "Projet 02", "category": "Exécution", "image": "/wp-content/uploads/2021/06/portfolio-2.jpg" },
+      { "title": "Projet 03", "category": "Opérations", "image": "/wp-content/uploads/2021/06/portfolio-3.jpg" },
+      { "title": "Projet 04", "category": "Services", "image": "/wp-content/uploads/2021/06/portfolio-4.jpg" },
+      { "title": "Projet 05", "category": "Corporate", "image": "/wp-content/uploads/2021/06/portfolio-5.jpg" },
+      { "title": "Projet 06", "category": "Maintenance", "image": "/wp-content/uploads/2021/06/portfolio-6.jpg" }
+    ]
+  },
+  "contact": {
+    "title": "Contactes Nous",
+    "subtitle": "Nous aimerions avoir de vos nouvelles. Veuillez nous envoyer un message en remplissant le formulaire ci-dessous, et nous vous répondrons dans les plus brefs délais.",
+    "mapEmbedUrl": "https://www.google.com/maps?q=99%20Av.%20Albert%201er,%2092500%20Rueil-Malmaison,%20France&output=embed",
+    "details": {
+      "emailLabel": "Email",
+      "emailValue": "contact@beehive-entreprises.com",
+      "emailHref": "mailto:contact@beehive-entreprises.com",
+      "phoneLabel": "Téléphone",
+      "phoneValue": "+33 6 99 57 83 15",
+      "phoneHref": "tel:+33699578315",
+      "addressLabel": "Adresse",
+      "addressValue": "99 Av. Albert 1er, 92500 Rueil-Malmaison, France"
+    },
+    "form": {
+      "nameLabel": "Nom complet",
+      "namePlaceholder": "Votre nom",
+      "emailLabel": "Email",
+      "emailPlaceholder": "nom@entreprise.com",
+      "phoneLabel": "Téléphone",
+      "phonePlaceholder": "Optionnel",
+      "subjectLabel": "Objet",
+      "subjectPlaceholder": "Demande de projet",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Parlez-nous de votre projet",
+      "submit": "Envoyer",
+      "success": "Merci ! Votre message est prêt à être envoyé."
+    },
+    "validation": {
+      "nameRequired": "Veuillez saisir votre nom.",
+      "emailInvalid": "Veuillez saisir une adresse email valide.",
+      "subjectRequired": "Veuillez saisir un objet.",
+      "messageMin": "Veuillez saisir un message (au moins 10 caractères)."
+    }
+  },
+  "footer": {
+    "tagline": "Pensé pour l’entreprise moderne.",
+    "rights": "© Beehive Entreprises. Tous droits réservés.",
+    "note": "Site statique construit avec des bonnes pratiques modernes.",
+    "social": {
+      "linkedinUrl": "https://www.linkedin.com/",
+      "facebookUrl": "https://www.facebook.com/",
+      "instagramUrl": "https://www.instagram.com/"
+    }
+  }
+}

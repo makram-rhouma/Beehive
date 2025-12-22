@@ -1,5 +1,7 @@
 const SUPPORTED_LANGS = ['en', 'fr', 'ar'];
 
+const STORAGE_KEY = 'beehive_lang';
+
 const state = {
   lang: 'fr',
   dictionary: null,
@@ -29,31 +31,37 @@ function normalizeLang(lang) {
 
 function pathLangFromUrl() {
   const parts = window.location.pathname.replace(/^\/+/, '').split('/').filter(Boolean);
+  const last = parts[parts.length - 1];
 
-  // Support both:
-  // - /en
-  // - /website/en (current folder deployment)
-  const first = parts[0];
-  const second = parts[1];
+  if (isSupported(last)) return normalizeLang(last);
 
-  if (isSupported(first)) return normalizeLang(first);
-  if (first === 'website' && isSupported(second)) return normalizeLang(second);
+  try {
+    const stored = window.localStorage.getItem(STORAGE_KEY);
+    if (stored) return normalizeLang(stored);
+  } catch {
+  }
 
   return 'fr';
 }
 
 function setUrlLang(lang) {
-  const parts = window.location.pathname.replace(/^\/+/, '').split('/').filter(Boolean);
-  const isInWebsiteFolder = parts[0] === 'website';
+  try {
+    window.localStorage.setItem(STORAGE_KEY, lang);
+  } catch {
+  }
 
-  const next = isInWebsiteFolder ? `/website/${lang}` : `/${lang}`;
+  const parts = window.location.pathname.replace(/^\/+/, '').split('/').filter(Boolean);
+  const last = parts[parts.length - 1];
+  if (!isSupported(last)) return;
+
+  const baseParts = parts.slice(0, -1);
+  const next = `/${baseParts.join('/')}${baseParts.length ? '/' : ''}`;
 
   try {
     if (window.location.pathname !== next) {
       window.history.replaceState({}, '', next);
     }
   } catch {
-    // In constrained environments, history may fail.
   }
 }
 
