@@ -41,7 +41,9 @@
       Skip to content
     </a>
 
-    <header id="siteHeader" class="site-header sticky top-0 z-50 overflow-x-hidden overflow-y-visible">
+<header
+  id="siteHeader"
+  class="site-header sticky top-0 z-50">
       <div class="pointer-events-none absolute inset-0 -z-10">
         <div class="absolute inset-0 border-b border-black/10 bg-white/70 backdrop-blur"></div>
         <div class="absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-brand-500/70 to-transparent"></div>
@@ -49,10 +51,10 @@
         <div class="header-blob absolute -right-24 -top-16 h-64 w-64 rounded-full bg-[radial-gradient(circle,rgba(7,11,18,0.10),transparent_65%)] blur-2xl"></div>
       </div>
 
-      <div class="header-inner mx-auto flex max-w-6xl items-center justify-between px-4 py-4 md:px-6" data-header-item>
+      <div class="header-inner mx-auto flex max-w-6xl items-center justify-between px-4 py-4 md:px-6 xl:max-w-7xl 2xl:max-w-[90rem]" data-header-item>
         <a href="#home" class="flex items-center gap-3" aria-label="Beehive Entreprises" data-header-item>
           <img class="h-10 w-auto" id="siteLogo" src="./img/LogoBeehive.png" alt="Beehive Entreprises" />
-          <span class="hidden text-sm font-semibold tracking-wide text-ink-900 sm:block" data-i18n="brand.tagline">Beehive Entreprises</span>
+          <span class="max-w-[11rem] truncate text-xs font-semibold tracking-wide text-ink-900 sm:max-w-none sm:text-sm" data-i18n="brand.tagline">Beehive Entreprises</span>
         </a>
 
         <nav class="hidden items-center gap-7 md:flex" aria-label="Primary" data-header-item>
@@ -90,7 +92,7 @@
       </div>
 
       <div class="md:hidden" id="mobileNav" hidden>
-        <nav class="mx-auto max-w-6xl px-4 pb-4 md:px-6" aria-label="Mobile">
+        <nav class="mx-auto max-w-6xl px-4 pb-4 md:px-6 xl:max-w-7xl 2xl:max-w-[90rem]" aria-label="Mobile">
           <div class="grid gap-2 rounded-2xl border border-black/10 bg-white p-3 shadow-soft">
             <a class="nav-link rounded-xl px-3 py-2 text-sm font-medium text-ink-900/80 hover:bg-black/5" href="#home" data-i18n="nav.home">Accueil</a>
             <a class="nav-link rounded-xl px-3 py-2 text-sm font-medium text-ink-900/80 hover:bg-black/5" href="#services" data-i18n="nav.services">Services</a>
@@ -109,28 +111,28 @@
           <div class="absolute inset-x-0 top-0 h-[520px] bg-gradient-to-b from-brand-50/80 to-transparent"></div>
         </div>
 
-        <div class="mx-auto grid max-w-6xl gap-10 px-4 py-16 md:grid-cols-2 md:items-center md:px-6 md:py-20">
+        <div class="mx-auto grid max-w-6xl gap-10 px-4 py-16 md:grid-cols-2 md:items-center md:px-6 md:py-20 xl:max-w-7xl xl:gap-14 xl:py-24 2xl:max-w-[90rem] 2xl:py-28">
           <div class="space-y-6">
             <p class="inline-flex items-center gap-2 rounded-full border border-black/10 bg-white px-4 py-2 text-xs font-semibold text-ink-900/80 shadow-soft" data-i18n="hero.kicker">
               Solutions digitales, logiciel & construction
             </p>
 
-            <h1 class="text-balance text-4xl font-semibold leading-tight tracking-tight sm:text-5xl" data-i18n="hero.title">
+            <h1 class="text-balance text-4xl font-semibold leading-tight tracking-tight sm:text-5xl xl:text-6xl 2xl:text-7xl" data-i18n="hero.title">
               Beehive Entreprises
             </h1>
 
-            <p class="max-w-xl text-pretty text-base leading-relaxed text-ink-900/70 sm:text-lg" data-i18n="hero.subtitle">
+            <p class="max-w-xl text-pretty text-base leading-relaxed text-ink-900/70 sm:text-lg xl:text-xl" data-i18n="hero.subtitle">
               Un groupe multi-expertises qui conçoit des solutions digitales, développe des logiciels sur-mesure et pilote des projets de construction avec exigence.
             </p>
 
             <div class="flex flex-col gap-3 sm:flex-row">
-              <a class="group inline-flex items-center justify-center gap-2 rounded-2xl bg-brand-500 px-6 py-3.5 text-sm font-semibold text-ink-950 shadow-soft hover:brightness-95 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:ring-offset-2 focus:ring-offset-white" href="#contact" data-i18n="hero.ctaPrimary">
+              <a class="group inline-flex items-center justify-center gap-2 rounded-2xl bg-brand-500 px-6 py-3.5 text-sm font-semibold text-ink-950 shadow-soft hover:brightness-95 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:ring-offset-2 focus:ring-offset-white xl:px-7 xl:py-4 xl:text-base" href="#contact" data-i18n="hero.ctaPrimary">
                 <span data-i18n="hero.ctaPrimary">Demander un devis</span>
                 <span class="inline-flex h-9 w-9 items-center justify-center rounded-2xl bg-white/40 transition duration-300 group-hover:translate-x-0.5">
                   <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M13.2 5.2 20 12l-6.8 6.8-1.4-1.4 4.4-4.4H4v-2h12.2l-4.4-4.4 1.4-1.4Z"/></svg>
                 </span>
               </a>
-              <a class="group inline-flex items-center justify-center gap-2 rounded-2xl border border-black/10 bg-white px-6 py-3.5 text-sm font-semibold text-ink-900 shadow-soft hover:bg-black/5 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:ring-offset-2 focus:ring-offset-white" href="#contact" data-i18n="hero.ctaSecondary">
+              <a class="group inline-flex items-center justify-center gap-2 rounded-2xl border border-black/10 bg-white px-6 py-3.5 text-sm font-semibold text-ink-900 shadow-soft hover:bg-black/5 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:ring-offset-2 focus:ring-offset-white xl:px-7 xl:py-4 xl:text-base" href="#contact" data-i18n="hero.ctaSecondary">
                 <span data-i18n="hero.ctaSecondary">Parler à un expert</span>
                 <span class="inline-flex h-9 w-9 items-center justify-center rounded-2xl border border-black/10 bg-white transition duration-300 group-hover:translate-x-0.5">
                   <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M13.2 5.2 20 12l-6.8 6.8-1.4-1.4 4.4-4.4H4v-2h12.2l-4.4-4.4 1.4-1.4Z"/></svg>
@@ -178,7 +180,7 @@
           <div class="relative">
             <div class="absolute -inset-4 rounded-[32px] bg-gradient-to-br from-brand-500/20 to-white/0 blur-2xl"></div>
             <div class="relative overflow-hidden rounded-[28px] border border-black/10 bg-white shadow-soft">
-              <div id="heroSlider" class="relative h-[420px] w-full sm:h-[480px]" aria-label="Hero slider">
+              <div id="heroSlider" class="relative h-[420px] w-full sm:h-[480px] xl:h-[560px] 2xl:h-[620px]" aria-label="Hero slider">
                 <div class="absolute inset-0" id="heroSlides"></div>
                 <div class="absolute inset-x-0 bottom-0 z-10 p-4">
                   <div class="flex items-center justify-between">
@@ -196,11 +198,11 @@
       </section>
 
       <section id="about" class="border-t border-black/10">
-        <div class="mx-auto grid max-w-6xl gap-10 px-4 py-16 md:grid-cols-2 md:items-start md:px-6">
+        <div class="mx-auto grid max-w-6xl gap-10 px-4 py-16 md:grid-cols-2 md:items-start md:px-6 xl:max-w-7xl xl:gap-14 xl:py-20 2xl:max-w-[90rem]">
           <div class="space-y-4">
-            <h2 class="text-3xl font-semibold tracking-tight" data-i18n="about.title">À propos</h2>
-            <p class="text-base leading-relaxed text-ink-900/70" data-i18n="about.lead"></p>
-            <p class="text-base leading-relaxed text-ink-900/70" data-i18n="about.body"></p>
+            <h2 class="text-3xl font-semibold tracking-tight xl:text-4xl" data-i18n="about.title">À propos</h2>
+            <p class="text-base leading-relaxed text-ink-900/70 xl:text-lg" data-i18n="about.lead"></p>
+            <p class="text-base leading-relaxed text-ink-900/70 xl:text-lg" data-i18n="about.body"></p>
             <ul class="grid gap-3" id="aboutList"></ul>
           </div>
 
@@ -219,15 +221,14 @@
           <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(217,172,53,0.16),transparent_60%)]"></div>
           <div class="absolute inset-x-0 top-0 h-[220px] bg-gradient-to-b from-white/60 to-transparent"></div>
         </div>
-        <div class="mx-auto max-w-6xl px-4 py-16 md:px-6">
+        <div class="mx-auto max-w-6xl px-4 py-16 md:px-6 xl:max-w-7xl xl:py-20 2xl:max-w-[90rem]">
           <div class="flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
             <div>
-              <h2 class="text-3xl font-semibold tracking-tight" data-i18n="partners.title">Partenaires</h2>
-              <p class="mt-2 max-w-2xl text-base leading-relaxed text-ink-900/70" data-i18n="partners.subtitle"></p>
+              <h2 class="text-3xl font-semibold tracking-tight xl:text-4xl" data-i18n="partners.title">Partenaires</h2>
             </div>
           </div>
 
-          <div class="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5" id="partnersGrid"></div>
+          <div class="mt-10" id="partnersGrid"></div>
         </div>
       </section>
 
@@ -235,10 +236,10 @@
         <div class="pointer-events-none absolute inset-0 -z-20">
           <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(217,172,53,0.14),transparent_60%)]"></div>
         </div>
-        <div class="relative z-10 mx-auto max-w-6xl px-4 py-16 md:px-6">
+        <div class="relative z-10 mx-auto max-w-6xl px-4 py-16 md:px-6 xl:max-w-7xl xl:py-20 2xl:max-w-[90rem]">
           <div class="flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
             <div>
-              <h2 class="text-3xl font-semibold tracking-tight" data-i18n="services.title">Services</h2>
+              <h2 class="text-3xl font-semibold tracking-tight xl:text-4xl" data-i18n="services.title">Services</h2>
               <p class="mt-2 max-w-2xl text-base leading-relaxed text-ink-900/70" data-i18n="services.subtitle">
                 Practical solutions designed for business outcomes.
               </p>
@@ -250,11 +251,11 @@
       </section>
 
       <section id="companies" class="border-t border-black/10">
-        <div class="mx-auto max-w-6xl px-4 py-16 md:px-6">
+        <div class="mx-auto max-w-6xl px-4 py-16 md:px-6 xl:max-w-7xl xl:py-20 2xl:max-w-[90rem]">
           <div class="flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
             <div>
-              <h2 class="text-3xl font-semibold tracking-tight" data-i18n="companies.title">Nos Entreprises</h2>
-              <p class="mt-2 max-w-2xl text-base leading-relaxed text-ink-900/70" data-i18n="companies.subtitle"></p>
+              <h2 class="text-3xl font-semibold tracking-tight xl:text-4xl" data-i18n="companies.title">Nos Entreprises</h2>
+              <p class="mt-2 max-w-2xl text-base leading-relaxed text-ink-900/70 xl:text-lg" data-i18n="companies.subtitle"></p>
             </div>
           </div>
 
@@ -263,11 +264,11 @@
       </section>
 
       <section id="founder" class="border-t border-black/10">
-        <div class="mx-auto max-w-6xl px-4 py-16 md:px-6">
+        <div class="mx-auto max-w-6xl px-4 py-16 md:px-6 xl:max-w-7xl xl:py-20 2xl:max-w-[90rem]">
           <div class="flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
             <div>
-              <h2 class="text-3xl font-semibold tracking-tight" data-i18n="team.title">Fondateurs</h2>
-              <p class="mt-2 max-w-2xl text-base leading-relaxed text-ink-900/70" data-i18n="team.subtitle"></p>
+              <h2 class="text-3xl font-semibold tracking-tight xl:text-4xl" data-i18n="team.title">Fondateurs</h2>
+              <p class="mt-2 max-w-2xl text-base leading-relaxed text-ink-900/70 xl:text-lg" data-i18n="team.subtitle"></p>
             </div>
           </div>
 
@@ -280,11 +281,11 @@
           <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(217,172,53,0.14),transparent_60%)]"></div>
         </div>
 
-        <div class="mx-auto grid max-w-6xl gap-10 px-4 py-16 md:grid-cols-2 md:items-start md:px-6">
+        <div class="mx-auto grid max-w-6xl gap-10 px-4 py-16 md:grid-cols-2 md:items-start md:px-6 xl:max-w-7xl xl:gap-14 xl:py-20 2xl:max-w-[90rem]">
           <div class="space-y-5">
             <div>
-              <h2 class="text-3xl font-semibold tracking-tight" data-i18n="contact.title">Contact</h2>
-              <p class="mt-2 text-base leading-relaxed text-ink-900/70" data-i18n="contact.subtitle">
+              <h2 class="text-3xl font-semibold tracking-tight xl:text-4xl" data-i18n="contact.title">Contact</h2>
+              <p class="mt-2 text-base leading-relaxed text-ink-900/70 xl:text-lg" data-i18n="contact.subtitle">
                 Tell us about your need. We’ll reply quickly.
               </p>
             </div>
@@ -295,16 +296,12 @@
 
             <div class="grid gap-3 sm:grid-cols-2">
               <div class="rounded-2xl border border-black/10 bg-white p-4 shadow-soft">
-                <p class="text-xs font-semibold text-ink-900/60" data-i18n="contact.details.emailLabel">Email</p>
-                <a class="mt-2 block text-sm font-semibold hover:underline" id="contactEmail" href="mailto:contact@beehive-entreprises.com" data-i18n="contact.details.emailValue">contact@beehive-entreprises.com</a>
-              </div>
-              <div class="rounded-2xl border border-black/10 bg-white p-4 shadow-soft">
                 <p class="text-xs font-semibold text-ink-900/60" data-i18n="contact.details.phoneLabel">Phone</p>
                 <a class="mt-2 block text-sm font-semibold hover:underline" id="contactPhone" href="tel:+0000000000" data-i18n="contact.details.phoneValue">+00 000 000 000</a>
               </div>
               <div class="rounded-2xl border border-black/10 bg-white p-4 shadow-soft sm:col-span-2">
                 <p class="text-xs font-semibold text-ink-900/60" data-i18n="contact.details.addressLabel">Address</p>
-                <p class="mt-2 text-sm font-semibold text-ink-900" data-i18n="contact.details.addressValue">Tunisia</p>
+                <p class="mt-2 whitespace-pre-line text-sm font-semibold text-ink-900" data-i18n="contact.details.addressValue">Tunisia</p>
               </div>
             </div>
           </div>

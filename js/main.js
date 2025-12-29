@@ -349,7 +349,7 @@ function renderServices(dictionary) {
   container.innerHTML = items
     .map(
       (it) => `
-        <article class="reveal group relative overflow-hidden rounded-[26px] border border-black/10 bg-white p-6 shadow-soft transition-transform duration-300 hover:-translate-y-1 hover:border-black/20">
+        <article class="reveal group relative flex h-full min-h-[260px] flex-col overflow-hidden rounded-[26px] border border-black/10 bg-white p-6 shadow-soft transition-transform duration-300 hover:-translate-y-1 hover:border-black/20">
           <div class="pointer-events-none absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-transparent via-brand-500/80 to-transparent opacity-70"></div>
           <div class="pointer-events-none absolute -right-16 -top-16 h-44 w-44 rounded-full bg-[radial-gradient(circle,rgba(217,172,53,0.22),transparent_62%)] blur-2xl transition duration-300 group-hover:opacity-100"></div>
           <div class="pointer-events-none absolute -left-24 -bottom-24 h-52 w-52 rounded-full bg-[radial-gradient(circle,rgba(7,11,18,0.06),transparent_60%)] blur-2xl"></div>
@@ -358,14 +358,14 @@ function renderServices(dictionary) {
             <div class="flex h-11 w-11 items-center justify-center rounded-2xl bg-brand-500/15 text-brand-700 transition duration-300 group-hover:bg-brand-500/25">
               ${getServiceIcon(it.title)}
             </div>
-            <div class="flex-1">
+            <div class="flex flex-1 flex-col">
               <div class="flex items-start justify-between gap-4">
                 <h3 class="text-lg font-semibold text-ink-900">${it.title ?? ''}</h3>
                 <span class="inline-flex h-9 w-9 items-center justify-center rounded-2xl border border-black/10 bg-white text-ink-900/60 opacity-0 transition duration-300 group-hover:opacity-100 group-hover:translate-x-0 -translate-x-1">
                   <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M13.2 5.2 20 12l-6.8 6.8-1.4-1.4 4.4-4.4H4v-2h12.2l-4.4-4.4 1.4-1.4Z"/></svg>
                 </span>
               </div>
-              <p class="mt-2 text-sm leading-relaxed text-ink-900/70">${it.description ?? ''}</p>
+              <p class="mt-2 flex-1 text-sm leading-relaxed text-ink-900/70">${it.description ?? ''}</p>
             </div>
           </div>
         </article>
@@ -442,21 +442,41 @@ function renderFounders(dictionary) {
   }
 
   container.innerHTML = members
-    .map(
-      (m) => `
-        <article class="reveal group relative overflow-hidden rounded-[26px] border border-black/10 bg-white shadow-soft transition-transform duration-300 hover:-translate-y-1 hover:border-black/20">
-          <div class="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(217,172,53,0.10),transparent_55%)] opacity-0 transition duration-300 group-hover:opacity-100"></div>
-          <div class="aspect-[4/3] overflow-hidden bg-black/5">
-            <img class="h-full w-full object-cover transition duration-500 group-hover:scale-[1.03]" src="${m.image}" alt="${m.name}" loading="lazy" decoding="async" />
-          </div>
-          <div class="relative z-10 p-5">
-            <h3 class="text-base font-semibold text-ink-900">${m.name}</h3>
-            <p class="mt-1 text-xs font-semibold text-brand-700">${m.role}</p>
-          </div>
-        </article>
-      `
-    )
-    .join('');
+  .map(
+    (m) => `
+      <article class="reveal group relative flex h-full flex-col overflow-hidden rounded-[26px] border border-black/10 bg-white shadow-soft transition-transform duration-300 hover:-translate-y-1 hover:border-black/20">
+
+        <!-- Gold hover glow -->
+        <div class="pointer-events-none absolute inset-0 
+          bg-[radial-gradient(ellipse_at_top,rgba(217,172,53,0.12),transparent_55%)]
+          opacity-0 transition duration-300 group-hover:opacity-100">
+        </div>
+
+        <!-- Image -->
+        <div class="aspect-[4/3] overflow-hidden bg-black/5">
+          <img
+            class="h-full w-full object-cover transition duration-500 group-hover:scale-[1.05]"
+            src="${m.image}"
+            alt="${m.name}"
+            loading="lazy"
+            decoding="async"
+          />
+        </div>
+
+        <!-- Text -->
+        <div class="relative z-10 flex min-h-[88px] flex-1 flex-col justify-center p-5 text-center">
+          <h3 class="text-base font-semibold text-ink-900">
+            ${m.name}
+          </h3>
+          <p class="mt-1 text-xs font-semibold text-brand-700 uppercase tracking-wide">
+            ${m.role}
+          </p>
+        </div>
+
+      </article>
+    `
+  )
+  .join("");
 }
 
 function setupMenu() {
@@ -672,18 +692,39 @@ function renderPartners(dictionary) {
     return;
   }
 
-  host.innerHTML = logos
-    .map(
-      (l) => `
-        <div class="reveal group relative flex items-center justify-center overflow-hidden rounded-[22px] border border-black/10 bg-white p-6 shadow-soft transition-transform duration-300 hover:-translate-y-1 hover:border-black/20">
-          <div class="pointer-events-none absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-transparent via-brand-500/80 to-transparent opacity-60"></div>
-          <div class="pointer-events-none absolute -right-10 -top-10 h-24 w-24 rounded-full bg-brand-500/10 blur-xl"></div>
-          <div class="pointer-events-none absolute -left-12 -bottom-12 h-28 w-28 rounded-full bg-[radial-gradient(circle,rgba(7,11,18,0.06),transparent_60%)] blur-xl"></div>
-          <img class="relative z-10 max-h-12 w-auto opacity-80 grayscale transition duration-300 group-hover:opacity-100 group-hover:grayscale-0 group-hover:scale-[1.02]" src="${l.src}" alt="${l.alt || ''}" loading="lazy" decoding="async" />
-        </div>
-      `
-    )
-    .join('');
+  const normalized = logos
+    .filter((l) => l && typeof l.src === 'string' && l.src.length > 0)
+    .map((l) => ({ src: l.src, alt: l.alt || '' }));
+
+  if (normalized.length === 0) {
+    host.innerHTML = '';
+    return;
+  }
+
+  const loop = normalized.concat(normalized);
+
+  host.innerHTML = `
+    <div class="partners-marquee" aria-label="Nos clients carousel">
+      <div class="partners-marquee__track">
+        ${loop
+          .map(
+            (l) => `
+              <div class="partners-marquee__item">
+                <div class="group relative flex h-[112px] items-center justify-center overflow-hidden rounded-[26px] border border-black/10 bg-white/95 px-7 shadow-soft transition duration-300 hover:-translate-y-0.5 hover:border-black/20 hover:shadow-[0_22px_60px_rgba(0,0,0,0.14)]">
+                  <div class="pointer-events-none absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-transparent via-brand-500/80 to-transparent opacity-60"></div>
+                  <div class="pointer-events-none absolute -right-10 -top-10 h-28 w-28 rounded-full bg-brand-500/10 blur-xl"></div>
+                  <div class="pointer-events-none absolute -left-12 -bottom-12 h-32 w-32 rounded-full bg-[radial-gradient(circle,rgba(7,11,18,0.06),transparent_60%)] blur-xl"></div>
+                  <div class="relative z-10 flex h-16 w-full items-center justify-center">
+                    <img class="h-16 max-w-[220px] object-contain opacity-85 grayscale transition duration-300 group-hover:opacity-100 group-hover:grayscale-0 group-hover:scale-[1.03]" src="${l.src}" alt="${l.alt}" loading="lazy" decoding="async" />
+                  </div>
+                </div>
+              </div>
+            `
+          )
+          .join('')}
+      </div>
+    </div>
+  `;
 }
 
 function getServiceIcon(title) {

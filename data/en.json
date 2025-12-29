@@ -43,10 +43,10 @@
     "lead": "A pragmatic team focused on delivering measurable value.",
     "body": "We support companies from planning to execution with a strong emphasis on quality, transparency, and long-term partnership.",
     "list": [
-      "BeeHive Digital: Digital services company (ESN), based at 99 Av. Albert 1er, 92500 Rueil-Malmaison, France",
+      "BeeHive Digital: Digital services company (ESN), based in Rueil-Malmaison, France.",
       "BeeHive Construction: Building and construction specialist, based in Paris, France.",
       "Digital Power Consulting: Software provider with operations in Tunisia and France.",
-      "BeeHive Logiciel: Technology consulting firm supporting companies in modernizing, securing, and optimizing their information systems."
+      "BeeHive Logiciel: Technology consulting firm supporting companies in modernizing, securing, and optimizing their information systems, with operations in Tunisia and France."
     ],
     "videoSrc": "./img/Video.mp4",
     "highlights": [
@@ -66,8 +66,8 @@
     ]
   },
   "partners": {
-    "title": "Partners",
-    "subtitle": "Trusted collaborators and group partners.",
+    "title": "Our Clients",
+    "subtitle": "",
     "logos": [
       { "src": "./img/Clients/Construction.png", "alt": "BeeHive Construction" },
       { "src": "./img/Clients/Digital.png", "alt": "BeeHive Digital" },
@@ -77,8 +77,8 @@
     ]
   },
   "companies": {
-    "title": "Companies",
-    "subtitle": "Group entities and key indicators.",
+    "title": "Our Partners",
+    "subtitle": "Discover Beehive group partners and their key indicators.",
     "items": [
       {
         "name": "Beehive Construction",
@@ -91,7 +91,7 @@
         "clientsLabel": "Clients",
         "clients": "Eiffage, Colas, Vinci-GTM, Bouygues Construction…",
         "cta": "Visit website",
-        "url": "https://beehiveentreprises.com/"
+        "url": "https://beehiveconstruction.fr/"
       },
       {
         "name": "Beehive Digital",
@@ -104,7 +104,7 @@
         "clientsLabel": "Clients",
         "clients": "Thales, Crédit Agricole, LCL, BNP, INTM, …",
         "cta": "Visit website",
-        "url": "https://beehiveentreprises.com/"
+        "url": "https://beehivedigital.fr/"
       },
       {
         "name": "Digital Power Consulting",
@@ -117,7 +117,7 @@
         "clientsLabel": "Clients",
         "clients": "Wevioo, Wifak Bank,…",
         "cta": "Visit website",
-        "url": "https://beehiveentreprises.com/"
+        "url": "https://dpc.com.tn/"
       },
       {
         "name": "Beehive Logiciel",
@@ -131,6 +131,19 @@
         "clients": "Beehive Entreprises, Wifak Bank, ..",
         "cta": "Visit website",
         "url": "https://beehiveentreprises.com/"
+      },
+      {
+        "name": "ALHADHBA",
+        "kicker": "Partner",
+        "logo": "./img/Clients/ALHADHBA.png",
+        "revenueLabel": "Revenue",
+        "revenue": "—",
+        "employeesLabel": "Employees",
+        "employees": "—",
+        "clientsLabel": "Clients",
+        "clients": "—",
+        "cta": "Visit website",
+        "url": "https://www.alhadabaco.com/"
       }
     ]
   },
@@ -191,7 +204,7 @@
       "phoneValue": "+33 6 99 57 83 15",
       "phoneHref": "tel:+33699578315",
       "addressLabel": "Address",
-      "addressValue": "99 Av. Albert 1er, 92500 Rueil-Malmaison, France"
+      "addressValue": "France: 99 Av. Albert 1er, 92500 Rueil-Malmaison, France\nTunisia: BEN JANNET Lac leman, Tunis"
     },
     "form": {
       "nameLabel": "Full name",
